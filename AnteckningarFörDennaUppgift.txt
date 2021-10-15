@@ -1,0 +1,59 @@
+BestGymEver1 :
+
+
+
+BestGymEver2 :
+
+Från logiska delen, Classen LogicUtil
+
+//    public Coustomer findThisCoustomer(String input, List<Coustomer> allCoustomers) {
+//        for (Coustomer findThisCoustomer : allCoustomers) {
+//            if (findThisCoustomer.getName().equalsIgnoreCase(input.trim())) {
+//                return findThisCoustomer;
+//            }
+//        }
+//        return null;
+//    }
+
+
+
+
+
+
+//
+//        InOutUtil inOutUtil = new InOutUtil();
+//
+//        List<Coustomer> AllCoustermersList = InOutUtil.ReadDataFromFile("src/BestGymEver2/Coustomers.txt");
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Write your name please : ");
+//
+//
+//        LogicUtil logicUtil = new LogicUtil();
+//
+//        String input = scanner.nextLine().trim();
+//
+//        Coustomer coustomer = logicUtil.getCoustomerFound(input, AllCoustermersList);
+//        System.out.println(logicUtil.memberShip(coustomer));
+//
+//        System.out.println(coustomer);
+//
+//        System.out.println(AllCoustermersList);
+
+
+
+
+BestGymEver3 :
+
+Felmeddelande ifall filen inte hittas eller
+ifall det blir fel mellan in & ut skrivningar
+
+
+//        } catch (FileNotFoundException e) {
+//            System.out.println("The file couldn't be found");
+//            e.printStackTrace();
+//            System.exit(0);
+//        } catch (IOException e) {
+//            System.out.println("An error occurred while loading the file");
+//            e.printStackTrace();
+//            System.exit(0);
